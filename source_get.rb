@@ -1,4 +1,7 @@
-require "./common/core_util"
+require "rubygems"
+gem "nikuman"
+puts $LOAD_PATH
+require "common/core_util"
 
 #http://blog.livedoor.jp/daigorowhite/archives/1421340.html
 #main

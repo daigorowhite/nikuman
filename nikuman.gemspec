@@ -5,5 +5,6 @@ Gem::Specification.new do |s|
   s.summary     = "nikuman is util project"
   s.description = "This is nikuman project"
   s.authors     = ["daigoro"]
-  s.files       = ["common/core_util.rb"]
+  s.files       = ["lib/common/core_util.rb"]
+  s.add_dependency('hpricot', '>= 0.8.6')
 end
